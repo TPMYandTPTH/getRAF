@@ -77,13 +77,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Share functions
     function shareWhatsApp() {
-        const message = `Check out this job opportunity at Teleperformance: ${currentReferralLink}`;
+        const message = `Check out this job opportunity at TP: ${currentReferralLink}`;
         const url = `https://wa.me/?text=${encodeURIComponent(message)}`;
         window.open(url, '_blank');
     }
 
     function shareLine() {
-        const message = `Check out this job opportunity at Teleperformance: ${currentReferralLink}`;
+        const message = `Check out this job opportunity at TP: ${currentReferralLink}`;
         const url = `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(message)}`;
         window.open(url, '_blank');
     }
